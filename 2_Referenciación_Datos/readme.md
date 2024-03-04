@@ -21,13 +21,13 @@ Lo primero que tenemos que hacer es importar el set de datos llamado Employee_Da
 
 ### Correción columnas
 
-Vamos a modificar las columnas Asignación parcial ($) y Asignación final ($). Ya que tenemos un signo $, ademas de indicarla como numérica y disminuir el numero de decimales.
+Vamos a modificar las columnas Asignación parcial y Asignación final. Ya que tenemos un signo $, ademas de indicarla como numérica y disminuir el numero de decimales.
 
 > Seleccionamos la columna -> Buscar y seleccionar -> Reemplazar -> Buscar "$" -> Reemplazamos con nada -> Reemplazar todos
 
 > Seleccionamos la columna -> Número -> Número -> Disminuir decimales -> Disminuimos en 2
 
-### Tranformacio¡ón solo mayúsculas
+### Tranformación solo mayúsculas
 
 Veamos como seria transformar una columna tipo texto a solo mayúsculas, esto tambien se puede hacer a solo minúsculas o primera mayúscula.
 
@@ -111,7 +111,6 @@ Insertamos una nueva columna que se llame Calculo_parcial.
 
 > [!CAUTION]
 > Si utilizamos una forumla como `=02*20` puede que excel comienze a insertar columnas incluso cuando tengamos registros en blanco.
-
 > Esto tambien afectaria negativamente el rendimiento.
 
 
@@ -164,17 +163,17 @@ Veamos como es el rendimiento academico de los alumnos de las escuelas rurales y
 
 Para poder realizar este gráfico primero tenemos que crear una tabla con las frecuencias absolutas y relativas, que para cada promedio por ámbito escolar.
 
-Para ello en la hoja reporte vamos a agregar 5 columas(notas, rural_abs, rural_fre, urbano_abs, urbano_fre)
+Para ello en la hoja reporte vamos a agregar 5 columas(notas, rural_abs, rural_fre, urbano_abs, urbano_fre).
 
-En notas pondremos numeros del 1 al 10 y debajo agregaremos total
+En notas pondremos numeros del 1 al 10 y debajo agregaremos total.
 
-Hay que calcular cuantas escuelas rurales tienen un promedio de 1, 2, 3, etc. Para ello usaremos `CONTAR.SI.CONJUNTO`
+Hay que calcular cuantas escuelas rurales tienen un promedio de 1, 2, 3, etc. Para ello usaremos `CONTAR.SI.CONJUNTO`.
 
 ```
 =CONTAR.SI.CONJUNTO(Padron_Establecimiento!F:F;"Rural";Padron_Establecimiento!R:R;[@NOTA])
 ```
 
-Y el total de las esculas rurales con `CONTAR.SI`
+Y el total de las esculas rurales con `CONTAR.SI`.
 ```
 =CONTAR.SI(Padron_Establecimiento!F:F;"Rural")
 ```
@@ -185,7 +184,7 @@ Una vez tenemos estos dos valores hay que calcular las frecuencias para cada not
 ```
 Indicamos a la columna como porcentaje. Repetimos el paso para las escuelas urbanas.
 
-De vuelta en la hoja de gráficos vamos a mostrar lo calculado
+De vuelta en la hoja de gráficos vamos a mostrar lo calculado.
 
 > Graficos -> gráficos lineas -> linea con marcadores
 
@@ -197,14 +196,15 @@ De vuelta en la hoja de gráficos vamos a mostrar lo calculado
 
 > Nombre serie -> Frecuencia urbana -> Valores -> Seleccionamos las 10 casillas de urbana _fre -> Aceptar
 
-Vamos a mejorar este gráfico
+Vamos a mejorar este gráfico.
 
-> Primero complementado con téxto
+Primero complementado con téxto:
+
 > Seleccionamos el gráfico -> + (Elementos gráficos) -> Título de gráfico (Comparación promedios rural vs urbano)
 
 > Seleccionamos leyendas -> Títulos de eje (Frecuencia) y (Promedio escolar)
 
-Personalizando colores
+Personalizando colores:
 > Seleccionamos una línea -> Dar formato a serie de datos -> Relleno y linea
 
 > Línea -> Color del contorno -> Seleccionamos color

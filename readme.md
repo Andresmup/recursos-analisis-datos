@@ -16,7 +16,7 @@ Además, encontraras ejercicios con preguntas, instrucciones en las guias y tips
 
 Por dos motivo muy importantes:
 
-- Este continedo solo lo da el profe Andrés, forma parte de los ejercicios que he pensado para que realmente saques el 100% de cada clase y mejores tus skills.
+- Este contenido solo lo da el profe Andrés, forma parte de los ejercicios que he pensado para que realmente saques el 100% de cada clase y mejores tus skills.
 - No existe un analista de datos (o programador) que no trabaje en Github, necesitas ir tomando contacto y esta es una forma divertida.
 
 > [!TIP]
@@ -69,7 +69,7 @@ En la parte derecha te aparecera un boton para descargarte ese archivo.
 ![Descargar](https://github.com/Andresmup/recursos-analisis-datos/assets/77512331/8cf3b2f2-b486-4985-b344-a02010110c10)
 
 > [!IMPORTANT]  
-> No te abrumes, si necesitas ayuda no dudes en consultarme. Durante todo el cursado hiremos aprendiendo más cosas y formas de trabajar con Github.
+> No te abrumes, si necesitas ayuda no dudes en consultarme. Durante todo el cursado iremos aprendiendo más cosas y formas de trabajar con Github.
 
 
 

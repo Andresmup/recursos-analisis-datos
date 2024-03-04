@@ -136,7 +136,7 @@ Insertamos una columna y la llamamos IT Employee, abajo para su calculo usamos u
 =CONTAR.SI(Employee_Data!I:I;"IT")
 ```
 
-### Empleados Estado Unidenses del departamento Sales
+### Empleados Estadounidenses del departamento Sales
 
 Queremos saber la cantidad de empleados en USA del sector Sales que se han contratado.
 
