@@ -110,7 +110,7 @@ Teniendo en cuenta que se dará una asignación de $20 por estudiante para cada 
 Insertamos una nueva columna que se llame Calculo_parcial.
 
 > [!CAUTION]
-> Si utilizamos una forumla como `=02*20` puede que excel comienze a insertar columnas incluso cuando tengamos registros en blanco.
+> Si utilizamos una formula como `=02*20` puede que excel comienze a insertar columnas incluso cuando tengamos registros en blanco.
 > Esto tambien afectaria negativamente el rendimiento.
 
 
