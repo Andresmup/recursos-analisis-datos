@@ -38,7 +38,7 @@ No, no tienes que subirlas de nuevo. Pero si te recomiendo que guardes cada ejer
 > [!NOTE]  
 > A la hora de programar es muy importante fijar conocimientos mediante la práctica. Es indispensable resolver los ejercicios para practicar la teoria vista y repasar lo aprendido.
 
-## ¿Como puedo hacer una copia de estos contenidos?
+## ¿Cómo puedo hacer una copia de estos contenidos?
 
 Existen dos formas muy faciles.
 
@@ -72,5 +72,42 @@ En la parte derecha te aparecera un boton para descargarte ese archivo.
 > No te abrumes, si necesitas ayuda no dudes en consultarme. Durante todo el cursado iremos aprendiendo más cosas y formas de trabajar con Github.
 
 
+## Pasos para guardar tus respuestas en la nube de Github
+
+Como ya te comente te recomiendo hacer las prácticas de cada clase.
+
+Y como sabras es importante demostrar que tenemos conocimientos de los temas, sobre todo cuando queremos postularnos a un puesto, o demostrar habilidades en el CV.
+
+Con Github puedes tener mostrar a modo de vitrina tus avances a lo largo del curso, subiendo los ejercicios que tu hiciste para cada clase. Veamos como:
+
+### Fork del proyecto
+
+Como te explique arriba, si utilizas la opción Fork se creara una copia del proyecto en tu cuenta. Ahí podras subir las actividades que hagas de cada clase. 
+Teniendo un registro de tu progreso y tu soluciones a las consigas.
+
+### Subir tus respuestas
+Para subir tu archivo de ejercitación, en tu carpeta (repositorio) del proyecto, vas a ir a la carpeta de ese dia.
+
+![SeleccionarCarpeta](https://github.com/Andresmup/recursos-analisis-datos/assets/77512331/bc84db71-6dd5-43eb-8623-9b5b2e59ccac)
+
+Se les desplegara una ventana con los contenidos de la clase, ahi podran agregar mas archivos (su trabajo de práctica).
+
+![UploadFiles](https://github.com/Andresmup/recursos-analisis-datos/assets/77512331/dfd8cb0c-d13e-4fe7-9fba-fbe2c03aebba)
 
 
+Ahora simplemente debes seleccionar tu archivo desde tu equipo, arrastrarlo a github, escribir un comentario que indique que acción estas haciendo y dar click en el boton verde `Commit changes`
+
+![SelectFile](https://github.com/Andresmup/recursos-analisis-datos/assets/77512331/90135b64-9466-432e-95f4-3579447ae4f7)
+
+Y listo ya tienes tus archivos de práctica de la cursada subidos a la nube de Github.
+
+
+## Actualizar contenido 
+
+Si decidiste hacer un fork de tu proyecto es muy probable que aun no esten todas las carpetas de cada clase subida.
+
+Puedes sincronzar tu archivos (cargar nuevas carpetas de clases) con los de la cursada de manera muy facil.
+
+Simplemente tienes que hacer click en `Sync Fork` en tu copia del curso. ¡Y listo ya estaria!
+
+![Sync](https://github.com/Andresmup/recursos-analisis-datos/assets/77512331/5575722a-b35d-48d5-a538-7614060ee54d)
