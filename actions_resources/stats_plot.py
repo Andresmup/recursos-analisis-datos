@@ -97,6 +97,23 @@ def main(token):
         # Mostrar el gráfico
         plt.tight_layout()
         plt.savefig('Top_10_most_actives_students.png')
+        
+        # Ruta de la carpeta donde deseas guardar el archivo
+        folder_path = 'actions_resources'
+
+        # Verificar si la carpeta existe, si no, crearla
+        if not os.path.exists(folder_path):
+            os.makedirs(folder_path)
+
+        # Ruta completa del archivo
+        full_path = os.path.join(folder_path, filename)
+
+        # Verificar si el archivo ya existe y eliminarlo si es necesario
+        if os.path.exists(full_path):
+            os.remove(full_path)
+
+        # Guardar el gráfico
+        plt.savefig(full_path)
         plt.show()
 
 if __name__ == "__main__":
