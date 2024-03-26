@@ -94,12 +94,12 @@ def main(token):
         for bar, cantidad in zip(bars, commits):
             plt.text(bar.get_x() + bar.get_width() / 2, bar.get_height(), cantidad, ha='center', va='bottom')
 
-        filename = 'Top_10_most_actives_students.png'
-
         # Mostrar el gráfico
         plt.tight_layout()
-        plt.savefig(filename)
-        
+
+        # Definir el nombre del gráfico
+        filename = 'Top_10_most_actives_students.png'
+
         # Ruta de la carpeta donde deseas guardar el archivo
         folder_path = 'actions_resources'
 
@@ -116,7 +116,6 @@ def main(token):
 
         # Guardar el gráfico
         plt.savefig(full_path)
-        plt.show()
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Script que utiliza un token.")
