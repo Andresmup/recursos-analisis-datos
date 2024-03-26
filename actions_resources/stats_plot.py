@@ -1,7 +1,7 @@
 import requests
 import matplotlib.pyplot as plt
 import argparse
-
+import os
 
 def obtener_forks(nombre_usuario, nombre_repo, token):
     # URL para obtener la lista de forks
