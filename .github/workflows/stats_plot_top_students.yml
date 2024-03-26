@@ -2,6 +2,8 @@ name: Plot Stats Top Students
 on:
   schedule:
     - cron: '0 0 * * 1'
+  workflow_dispatch:
+  
 jobs:
   build:
     if: github.repository == 'Andresmup/recursos-analisis-datos' && github.ref == 'refs/heads/main'
