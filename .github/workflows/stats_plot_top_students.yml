@@ -1,30 +1,22 @@
 name: Plot Stats Top Students
-
 on:
   schedule:
     - cron: '0 0 * * 1'
-
-
 jobs:
   build:
     if: github.repository == 'Andresmup/recursos-analisis-datos' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
-
     permissions:
       contents: write
-
-  steps:
+    steps:
       - name: Checkout Repo
         uses: actions/checkout@v4
-  
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      
       - name: Run script
-        run: python ./actions_resources/stats_plot.py ${{ secrets.GH_TOKEN}}
-
+        run: python ./actions_resources/stats_plot.py ${{ secrets.GH_TOKEN }}
       - name: Commit and Push Graph
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
