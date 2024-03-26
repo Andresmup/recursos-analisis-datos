@@ -13,6 +13,9 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v4
+      - name: Delete File
+        run: |
+          rm "actions_resources/Top_10_most_actives_students.png"
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
