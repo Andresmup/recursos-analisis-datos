@@ -2,6 +2,12 @@ import requests
 import matplotlib.pyplot as plt
 import argparse
 import os
+from datetime import datetime
+
+def obtener_fecha_actual():
+    hoy = datetime.today()
+    fecha_formateada = hoy.strftime("%d/%m/%Y")
+    return fecha_formateada
 
 def obtener_forks(nombre_usuario, nombre_repo, token):
     # URL para obtener la lista de forks
@@ -31,20 +37,23 @@ def obtener_forks(nombre_usuario, nombre_repo, token):
 def obtener_actividad(nombre_usuario, nombre_repo, token):
     # Obtener la lista de usuarios que han hecho fork del repositorio
     usuarios_forks = obtener_forks(nombre_usuario, nombre_repo, token)
-
+    
     if usuarios_forks:
         # Crear un diccionario para almacenar la actividad de cada usuario
         actividad_usuarios = {}
 
         for usuario in usuarios_forks:
             # Obtener la cantidad de commits del usuario en su repositorio fork
-            url_contribuciones = f"https://api.github.com/repos/{usuario}/{nombre_repo}/commits"
+            url_contribuciones = f"https://api.github.com/repos/{usuario}/{nombre_repo}/commits?author={usuario}"
             headers = {'Authorization': f'token {token}'}
             respuesta_contribuciones = requests.get(url_contribuciones, headers=headers)
             if respuesta_contribuciones.status_code == 200:
-                cantidad_contribuciones = len(respuesta_contribuciones.json())
-                # Almacenar la actividad del usuario en el diccionario
+                cantidad_contribuciones = 0
+                for commit in respuesta_contribuciones.json():
+                    if commit['author']['login'] == usuario:
+                        cantidad_contribuciones += 1
                 actividad_usuarios[usuario] = cantidad_contribuciones
+                
 
         # Ordenar el diccionario por la cantidad de contribuciones (actividad)
         usuarios_ordenados = sorted(actividad_usuarios.items(), key=lambda x: x[1], reverse=True)
@@ -62,30 +71,33 @@ def main(token):
     # Obtener la lista de actividad de los usuarios que han hecho fork y han realizado commits en sus forks
     lista_actividad_usuarios = obtener_actividad(nombre_usuario, nombre_repo, token)
 
-    #Selecciono el top 10
-    top_10_actividad_usuarios = lista_actividad_usuarios[:10]
+    #Selecciono el top 5
+    top_5_actividad_usuarios = lista_actividad_usuarios[:5]
 
     #Si hay actividad hago el gráfico
-    if top_10_actividad_usuarios:
+    if top_5_actividad_usuarios:
         # Extraer nombres de usuarios y cantidad de commits
-        nombres = [x[0] for x in top_10_actividad_usuarios]
-        commits = [x[1] for x in top_10_actividad_usuarios]
+        nombres = [x[0] for x in top_5_actividad_usuarios]
+        commits = [x[1] for x in top_5_actividad_usuarios]
 
         # Seleccionar una paleta de colores
         paleta_color = 'tab20b'
-        colores =  plt.cm.get_cmap(paleta_color, len(top_10_actividad_usuarios))
+        colores =  plt.cm.get_cmap(paleta_color, len(top_5_actividad_usuarios))
         
         # Convertir el objeto ListedColormap en una lista de colores
-        colores_lista = [colores(i) for i in range(len(top_10_actividad_usuarios))]
+        colores_lista = [colores(i) for i in range(len(top_5_actividad_usuarios))]
         
         # Crear el gráfico de barras
         plt.figure(figsize=(10,6))
         bars = plt.bar(nombres, commits, color=colores_lista)
+        
+        # Obtener la fecha actual
+        fecha_actual = obtener_fecha_actual()
 
         # Añadir etiquetas y título
-        plt.xlabel('Usuarios')
+        plt.xlabel('Nombres usuarios')
         plt.ylabel('Cantidad de Commits')
-        plt.title('Cantidad de Commits por Usuario')
+        plt.title(f'Estudiantes con mas actividad ({fecha_actual})')
 
         # Rotar los nombres en el eje x para mayor legibilidad
         plt.xticks(rotation=60)
@@ -98,7 +110,7 @@ def main(token):
         plt.tight_layout()
 
         # Definir el nombre del gráfico
-        filename = 'Top_10_most_actives_students.png'
+        filename = 'Top_5_most_actives_students.png'
 
         # Ruta de la carpeta donde deseas guardar el archivo
         folder_path = 'actions_resources'
