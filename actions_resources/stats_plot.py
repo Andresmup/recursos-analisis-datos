@@ -94,9 +94,11 @@ def main(token):
         for bar, cantidad in zip(bars, commits):
             plt.text(bar.get_x() + bar.get_width() / 2, bar.get_height(), cantidad, ha='center', va='bottom')
 
+        filename = 'Top_10_most_actives_students.png'
+
         # Mostrar el gráfico
         plt.tight_layout()
-        plt.savefig('Top_10_most_actives_students.png')
+        plt.savefig(filename)
         
         # Ruta de la carpeta donde deseas guardar el archivo
         folder_path = 'actions_resources'
