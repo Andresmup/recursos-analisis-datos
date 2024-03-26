@@ -72,20 +72,20 @@ def main(token):
     lista_actividad_usuarios = obtener_actividad(nombre_usuario, nombre_repo, token)
 
     #Selecciono el top 5
-    top_10_actividad_usuarios = lista_actividad_usuarios[:5]
+    top_5_actividad_usuarios = lista_actividad_usuarios[:5]
 
     #Si hay actividad hago el gráfico
-    if top_10_actividad_usuarios:
+    if top_5_actividad_usuarios:
         # Extraer nombres de usuarios y cantidad de commits
-        nombres = [x[0] for x in top_10_actividad_usuarios]
-        commits = [x[1] for x in top_10_actividad_usuarios]
+        nombres = [x[0] for x in top_5_actividad_usuarios]
+        commits = [x[1] for x in top_5_actividad_usuarios]
 
         # Seleccionar una paleta de colores
         paleta_color = 'tab20b'
-        colores =  plt.cm.get_cmap(paleta_color, len(top_10_actividad_usuarios))
+        colores =  plt.cm.get_cmap(paleta_color, len(top_5_actividad_usuarios))
         
         # Convertir el objeto ListedColormap en una lista de colores
-        colores_lista = [colores(i) for i in range(len(top_10_actividad_usuarios))]
+        colores_lista = [colores(i) for i in range(len(top_5_actividad_usuarios))]
         
         # Crear el gráfico de barras
         plt.figure(figsize=(10,6))
