@@ -97,7 +97,7 @@ def main(token):
         # Añadir etiquetas y título
         plt.xlabel('Nombres usuarios')
         plt.ylabel('Cantidad de Commits')
-        plt.title(f'Estudiantes con mas actividad ({fecha_actual})')
+        plt.title(f'Estudiantes con más actividad ({fecha_actual})')
 
         # Rotar los nombres en el eje x para mayor legibilidad
         plt.xticks(rotation=60)
