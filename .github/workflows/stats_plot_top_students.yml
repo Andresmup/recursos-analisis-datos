@@ -1,0 +1,35 @@
+name: Plot Stats Top Students
+on:
+  schedule:
+    - cron: '0 0 * * 1'
+  workflow_dispatch:
+  
+jobs:
+  build:
+    if: github.repository == 'Andresmup/recursos-analisis-datos' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+      - name: Delete File
+        run: |
+          rm "actions_resources/Top_5_most_actives_students.png"
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: |
+          pip install requests
+          pip install matplotlib
+      - name: Run script
+        run: python ./actions_resources/stats_plot.py ${{ secrets.GH_TOKEN }}
+      - name: Commit and Push Graph
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update graph
+          commit_user_name: Andresmup [GitHub Actions]
+          commit_user_email: andresmunozpampillon@gmail.com
+          commit_author: andresmup <andresmunozpampillon@gmail.com>
