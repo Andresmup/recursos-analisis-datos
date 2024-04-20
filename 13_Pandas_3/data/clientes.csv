@@ -1,0 +1,181 @@
+,Age,Gender,Marital Status,Occupation,Monthly Income,Educational Qualifications,Family size,latitude,longitude,Pin code,Output,Feedback,Unnamed: 12
+0,20,Female,Single,Student,No Income,Post Graduate,4,12.9766,77.5993,560001,Yes,Positive,Yes
+1,24,Female,Single,Student,Below Rs.10000,Graduate,3,12.977,77.5773,560009,Yes,Positive,Yes
+3,22,Female,Single,Student,No Income,Graduate,6,12.9473,77.5616,560019,Yes,Positive,Yes
+4,22,Male,Single,Student,Below Rs.10000,Post Graduate,4,12.985,77.5533,560010,Yes,Positive,Yes
+6,22,Male,Single,Student,No Income,Graduate,3,12.977,77.5773,560009,Yes,Positive,Yes
+7,24,Female,Single,Student,No Income,Post Graduate,3,12.9828,77.6131,560042,Yes,Positive,Yes
+8,23,Female,Single,Student,No Income,Post Graduate,2,12.9766,77.5993,560001,Yes,Positive,Yes
+9,23,Female,Single,Student,No Income,Post Graduate,4,12.9854,77.7081,560048,Yes,Positive,Yes
+10,22,Female,Single,Student,No Income,Post Graduate,5,12.985,77.5533,560010,Yes,Positive,Yes
+12,23,Male,Single,Student,No Income,Post Graduate,5,12.8988,77.5764,560078,Yes,Positive,Yes
+13,21,Male,Single,Student,No Income,Graduate,4,12.977,77.5773,560009,Yes,Positive,Yes
+15,24,Female,Single,Student,No Income,Post Graduate,6,12.8893,77.6399,560068,Yes,Positive,Yes
+19,21,Female,Single,Student,Below Rs.10000,Post Graduate,1,12.9783,77.6408,560038,Yes,Positive,Yes
+20,24,Male,Single,Student,No Income,Post Graduate,3,12.977,77.5773,560009,Yes,Positive,Yes
+21,22,Male,Single,Student,No Income,Post Graduate,4,13.0298,77.6047,560032,Yes,Positive,Yes
+22,22,Female,Single,Student,No Income,Graduate,4,12.9983,77.6409,560033,Yes,Positive,Yes
+23,23,Male,Single,Student,No Income,Graduate,4,12.9925,77.5633,560021,Yes,Positive,Yes
+24,21,Male,Single,Student,Below Rs.10000,Post Graduate,3,12.9306,77.5434,560085,Yes,Positive,Yes
+25,25,Male,Single,Student,No Income,Post Graduate,3,12.982,77.6256,560008,Yes,Positive,Yes
+26,22,Female,Single,Student,No Income,Post Graduate,5,12.9353,77.5585,560050,Yes,Positive,Yes
+27,22,Male,Single,Student,No Income,Post Graduate,3,12.9155,77.5135,560098,Yes,Positive,Yes
+29,22,Male,Single,Student,Below Rs.10000,Post Graduate,4,13.0019,77.5713,560003,Yes,Positive,Yes
+31,22,Male,Single,Student,No Income,Post Graduate,4,12.9783,77.6408,560038,Yes,Positive,Yes
+33,22,Female,Single,Student,10001 to 25000,Post Graduate,5,12.985,77.5533,560010,Yes,Positive,Yes
+34,22,Female,Single,Student,No Income,Post Graduate,2,12.9119,77.6446,560102,Yes,Positive,Yes
+35,25,Male,Single,Student,10001 to 25000,Post Graduate,3,12.9306,77.5434,560085,Yes,Positive,Yes
+36,25,Male,Single,Student,No Income,Post Graduate,5,12.977,77.5773,560009,No,Positive,No
+38,23,Female,Single,Student,No Income,Post Graduate,3,12.9438,77.5738,560004,Yes,Positive,Yes
+39,23,Female,Single,Student,No Income,Post Graduate,4,12.8988,77.5764,560078,Yes,Positive,Yes
+41,23,Male,Single,Student,No Income,Graduate,3,12.9565,77.5484,560026,Yes,Positive,Yes
+42,23,Male,Single,Student,No Income,Post Graduate,4,12.9925,77.5633,560021,Yes,Positive,Yes
+43,22,Female,Single,Student,No Income,Post Graduate,5,12.985,77.5533,560010,Yes,Positive,Yes
+44,22,Male,Single,Student,No Income,Graduate,5,12.985,77.5533,560010,Yes,Positive,Yes
+46,24,Female,Single,Student,No Income,Post Graduate,3,12.977,77.5773,560009,Yes,Positive,Yes
+47,23,Male,Single,Student,No Income,Post Graduate,2,12.977,77.5773,560009,Yes,Positive,Yes
+49,22,Female,Single,Student,10001 to 25000,Post Graduate,5,12.985,77.5533,560010,Yes,Positive,Yes
+50,23,Female,Single,Student,No Income,Graduate,5,13.0206,77.6479,560043,Yes,Positive,Yes
+51,23,Female,Single,Student,No Income,Post Graduate,2,12.977,77.5773,560009,Yes,Positive,Yes
+52,24,Male,Single,Student,No Income,Post Graduate,3,12.977,77.5773,560009,Yes,Positive,Yes
+53,25,Male,Single,Student,No Income,Post Graduate,2,12.9635,77.5821,560002,Yes,Positive,Yes
+54,22,Male,Single,Student,No Income,Post Graduate,3,12.9306,77.5434,560085,Yes,Positive,Yes
+56,22,Female,Single,Student,No Income,Post Graduate,1,12.8845,77.6036,560076,Yes,Positive,Yes
+57,24,Female,Single,Student,No Income,Graduate,3,12.977,77.5773,560009,Yes,Positive,Yes
+59,25,Male,Single,Student,No Income,Post Graduate,4,13.0067,77.545,560086,Yes,Positive,Yes
+60,23,Male,Single,Student,No Income,Post Graduate,5,12.8988,77.5764,560078,Yes,Positive,Yes
+61,22,Male,Single,Student,No Income,Post Graduate,3,12.8845,77.6036,560076,Yes,Positive,Yes
+62,23,Male,Single,Student,25001 to 50000,Post Graduate,1,13.0158,77.539,560096,Yes,Positive,Yes
+63,23,Male,Single,Student,No Income,Graduate,4,12.9343,77.6044,560029,Yes,Positive,Yes
+64,23,Female,Single,Student,No Income,Post Graduate,2,13.0019,77.5713,560003,Yes,Positive,Yes
+65,25,Male,Single,Student,No Income,Post Graduate,6,13.0012,77.5995,560046,Yes,Positive,Yes
+67,23,Female,Single,Student,No Income,Post Graduate,4,13.0487,77.5923,560024,Yes,Positive,Yes
+68,23,Female,Single,Student,No Income,Post Graduate,4,13.0487,77.5923,560024,Yes,Positive,Yes
+70,22,Male,Single,Student,No Income,Graduate,4,12.9889,77.5741,560020,Yes,Positive,Yes
+71,24,Female,Single,Student,10001 to 25000,Post Graduate,3,12.9335,77.5691,560028,No,Positive,No
+72,25,Female,Single,Student,No Income,Post Graduate,3,12.9766,77.5993,560001,Yes,Positive,Yes
+73,23,Male,Single,Student,No Income,Post Graduate,2,12.8845,77.6036,560076,Yes,Positive,Yes
+74,26,Male,Single,Student,No Income,Post Graduate,4,13.0019,77.5713,560003,Yes,Positive,Yes
+75,24,Female,Single,Student,25001 to 50000,Post Graduate,3,13.102,77.5864,560064,Yes,Positive,Yes
+76,26,Male,Single,Student,No Income,Post Graduate,4,12.9048,77.6821,560036,Yes,Positive,Yes
+77,21,Male,Single,Student,No Income,Graduate,4,12.977,77.5773,560009,Yes,Positive,Yes
+78,22,Female,Single,Student,No Income,Post Graduate,3,12.977,77.5773,560009,Yes,Positive,Yes
+79,24,Male,Single,Student,No Income,Post Graduate,5,12.9337,77.59,560011,Yes,Positive,Yes
+80,24,Male,Single,Student,10001 to 25000,Post Graduate,4,12.9037,77.5376,560061,Yes,Positive,Yes
+81,23,Female,Single,Student,No Income,Post Graduate,3,12.977,77.5773,560009,Yes,Positive,Yes
+82,23,Male,Single,Student,No Income,Post Graduate,3,12.9343,77.6044,560029,Yes,Positive,Yes
+83,22,Male,Single,Student,No Income,Post Graduate,3,12.9438,77.5738,560004,Yes,Positive,Yes
+84,23,Male,Single,Student,No Income,Post Graduate,3,12.977,77.5773,560009,Yes,Positive,Yes
+85,24,Female,Single,Student,No Income,Post Graduate,4,12.9783,77.6408,560038,Yes,Positive,Yes
+86,24,Male,Single,Student,No Income,Post Graduate,5,12.9337,77.59,560011,Yes,Positive,Yes
+87,25,Male,Single,Student,No Income,Graduate,1,12.977,77.5773,560009,Yes,Positive,Yes
+88,25,Male,Single,Student,No Income,Post Graduate,5,12.977,77.5773,560009,No,Positive,No
+92,22,Male,Single,Student,No Income,Post Graduate,2,12.977,77.5773,560009,Yes,Positive,Yes
+93,24,Female,Single,Student,No Income,Post Graduate,3,12.977,77.5773,560009,Yes,Positive,Yes
+94,23,Male,Single,Student,No Income,Post Graduate,1,12.9561,77.5921,560027,Yes,Positive,Yes
+95,25,Male,Single,Student,No Income,Graduate,1,12.977,77.5773,560009,Yes,Positive,Yes
+96,23,Female,Single,Student,No Income,Graduate,5,13.0206,77.6479,560043,Yes,Positive,Yes
+97,23,Female,Single,Student,No Income,Graduate,5,13.0206,77.6479,560043,Yes,Positive,Yes
+100,24,Female,Single,Student,10001 to 25000,Post Graduate,3,12.9335,77.5691,560028,No,Positive,No
+101,23,Male,Single,Student,No Income,Post Graduate,2,12.9442,77.6076,560030,Yes,Positive,Yes
+103,24,Female,Single,Student,No Income,Ph.D,3,12.9438,77.5738,560004,Yes,Positive,Yes
+107,25,Male,Single,Student,No Income,Post Graduate,1,12.9343,77.6044,560029,Yes,Positive,Yes
+109,18,Male,Single,Student,No Income,Graduate,5,12.9635,77.5821,560002,Yes,Positive,Yes
+110,21,Male,Single,Student,No Income,Post Graduate,4,12.977,77.5773,560009,Yes,Positive,Yes
+111,25,Male,Single,Student,No Income,Post Graduate,1,12.9343,77.6044,560029,Yes,Positive,Yes
+112,25,Male,Single,Student,Below Rs.10000,Post Graduate,2,12.9925,77.5633,560021,Yes,Positive,Yes
+113,23,Female,Single,Student,No Income,Graduate,5,13.0206,77.6479,560043,Yes,Positive,Yes
+126,23,Male,Single,Student,No Income,Post Graduate,3,12.977,77.5773,560009,Yes,Positive,Yes
+127,25,Male,Single,Student,No Income,Post Graduate,4,12.977,77.5773,560009,Yes,Positive,Yes
+128,23,Male,Single,Student,No Income,Post Graduate,3,12.977,77.5773,560009,Yes,Positive,Yes
+129,23,Female,Single,Student,No Income,Post Graduate,4,13.0487,77.5923,560024,Yes,Positive,Yes
+132,23,Male,Single,Student,No Income,Post Graduate,2,13.0019,77.5713,560003,Yes,Positive,Yes
+134,19,Female,Single,Student,No Income,Graduate,4,12.9537,77.6176,560047,Yes,Positive,Yes
+139,22,Female,Single,Student,Below Rs.10000,Post Graduate,4,12.9343,77.6044,560029,Yes,Positive,Yes
+140,23,Male,Single,Student,No Income,Post Graduate,3,13.102,77.5864,560064,No,Positive,No
+146,23,Male,Single,Student,More than 50000,Post Graduate,3,12.977,77.5773,560009,Yes,Positive,Yes
+147,24,Female,Single,Student,No Income,Post Graduate,4,13.0496,77.4941,560073,Yes,Positive,Yes
+149,22,Male,Single,Student,No Income,Post Graduate,4,12.9889,77.5741,560020,Yes,Positive,Yes
+150,23,Male,Single,Student,More than 50000,Post Graduate,3,12.977,77.5773,560009,Yes,Positive,Yes
+151,23,Female,Single,Student,No Income,Post Graduate,4,13.0487,77.5923,560024,Yes,Positive,Yes
+152,20,Male,Single,Student,No Income,Graduate,2,12.9579,77.6309,560007,Yes,Positive,Yes
+153,21,Male,Single,Student,No Income,Graduate,2,12.9579,77.6309,560007,Yes,Positive,Yes
+155,23,Female,Single,Student,No Income,Post Graduate,4,13.0487,77.5923,560024,Yes,Positive,Yes
+159,20,Female,Single,Student,No Income,Graduate,2,12.9337,77.59,560011,Yes,Positive,Yes
+160,21,Male,Single,Student,No Income,Graduate,2,12.9337,77.59,560011,Yes,Positive,Yes
+167,24,Female,Single,Student,No Income,Post Graduate,5,12.9883,77.5987,560051,Yes,Positive,Yes
+170,22,Male,Single,Student,No Income,Post Graduate,1,13.0626,77.5284,560015,Yes,Positive,Yes
+173,25,Female,Single,Student,No Income,Post Graduate,3,12.9551,77.6593,560017,Yes,Positive,Yes
+176,22,Male,Single,Student,No Income,Graduate,2,12.957,77.5637,560018,No,Positive,No
+183,22,Male,Single,Student,No Income,Graduate,2,12.9889,77.5741,560020,No,Positive,No
+186,22,Male,Single,Student,No Income,Post Graduate,2,12.977,77.5773,560009,Yes,Positive,Yes
+195,22,Female,Single,Student,No Income,Graduate,3,12.9343,77.6044,560029,Yes,Positive,Yes
+196,19,Male,Single,Student,No Income,Graduate,6,12.9442,77.6076,560030,Yes,Positive,Yes
+200,23,Male,Single,Student,No Income,Post Graduate,2,12.9261,77.6221,560034,Yes,Positive,Yes
+201,24,Male,Single,Student,No Income,Post Graduate,5,12.9621,77.5376,560104,Yes,Positive,Yes
+204,25,Female,Single,Student,No Income,Ph.D,3,12.9048,77.6821,560036,Yes,Positive,Yes
+205,20,Male,Single,Student,No Income,Graduate,2,12.9261,77.6221,560034,Yes,Positive,Yes
+207,23,Female,Single,Student,No Income,Graduate,1,12.977,77.5773,560009,Yes,Positive,Yes
+213,23,Male,Single,Student,No Income,Graduate,3,13.0223,77.7132,560049,Yes,Positive,Yes
+220,21,Female,Single,Student,No Income,Post Graduate,1,12.9217,77.5936,560041,Yes,Positive,Yes
+221,23,Female,Single,Student,No Income,Graduate,2,12.9105,77.4842,560060,No,Positive,No
+226,21,Female,Single,Student,No Income,Post Graduate,3,12.9149,77.5635,560070,Yes,Positive,Yes
+227,24,Male,Single,Student,No Income,Post Graduate,2,12.9706,77.6529,560075,Yes,Positive,Yes
+231,21,Male,Single,Student,No Income,Graduate,5,12.9783,77.6408,560038,Yes,Positive,Yes
+236,22,Male,Single,Student,No Income,Graduate,3,13.0158,77.539,560096,Yes,Positive,Yes
+237,24,Male,Single,Student,No Income,Graduate,2,12.9561,77.5921,560027,Yes,Positive,Yes
+239,23,Female,Single,Student,No Income,Post Graduate,3,12.9369,77.6407,560095,No,Positive,No
+241,22,Female,Single,Student,No Income,Graduate,2,12.9369,77.6407,560095,Yes,Positive,Yes
+243,23,Female,Single,Student,No Income,Post Graduate,2,13.0158,77.539,560096,Yes,Positive,Yes
+245,21,Male,Single,Student,No Income,Graduate,3,13.0641,77.5931,560092,Yes,Positive,Yes
+251,21,Male,Single,Student,No Income,Graduate,6,12.9847,77.5491,560100,Yes,Positive,Yes
+252,20,Male,Single,Student,No Income,Graduate,3,12.9299,77.6848,560103,Yes,Positive,Yes
+258,23,Male,Single,Student,No Income,Post Graduate,3,12.9967,77.7582,560067,Yes,Positive,Yes
+268,22,Male,Single,Student,25001 to 50000,Graduate,3,12.9783,77.6408,560038,Yes,Positive,Yes
+275,23,Female,Single,Student,No Income,Post Graduate,4,13.0487,77.5923,560024,Yes,Positive,Yes
+277,22,Female,Single,Student,No Income,Graduate,2,12.9515,77.4921,560056,Yes,Positive,Yes
+280,19,Male,Single,Student,No Income,Graduate,6,12.9048,77.6821,560036,Yes,Positive,Yes
+281,21,Female,Single,Student,No Income,Graduate,2,13.0103,77.5796,560080,Yes,Positive,Yes
+282,23,Male,Single,Student,No Income,Graduate,4,13.0103,77.5796,560080,Yes,Positive,Yes
+285,26,Female,Single,Student,No Income,Ph.D,2,12.9757,77.5586,560023,Yes,Positive,Yes
+286,25,Female,Single,Student,10001 to 25000,Graduate,2,12.9757,77.5586,560023,Yes,Positive,Yes
+288,25,Female,Single,Student,No Income,Post Graduate,3,13.0734,77.5464,560014,Yes,Positive,Yes
+289,20,Female,Single,Student,No Income,Graduate,2,13.0734,77.5464,560014,Yes,Positive,Yes
+296,24,Male,Single,Student,No Income,Post Graduate,3,13.0626,77.5284,560015,Yes,Positive,Yes
+301,22,Female,Single,Student,No Income,Graduate,6,12.9473,77.5616,560019,Yes,Positive,Yes
+302,22,Male,Single,Student,Below Rs.10000,Post Graduate,4,12.985,77.5533,560010,Yes,Positive,Yes
+304,22,Male,Single,Student,No Income,Graduate,3,12.977,77.5773,560009,Yes,Positive,Yes
+305,24,Female,Single,Student,No Income,Post Graduate,3,12.9828,77.6131,560042,Yes,Positive,Yes
+306,23,Female,Single,Student,No Income,Post Graduate,2,12.9766,77.5993,560001,Yes,Positive,Yes
+307,23,Female,Single,Student,No Income,Post Graduate,4,12.9854,77.7081,560048,Yes,Positive,Yes
+308,22,Female,Single,Student,No Income,Post Graduate,5,12.985,77.5533,560010,Yes,Positive,Yes
+313,21,Female,Single,Student,No Income,Post Graduate,3,12.9149,77.5635,560070,Yes,Positive,Yes
+314,24,Male,Single,Student,No Income,Post Graduate,2,12.9706,77.6529,560075,Yes,Positive,Yes
+318,21,Male,Single,Student,No Income,Graduate,5,12.9783,77.6408,560038,Yes,Positive,Yes
+323,22,Male,Single,Student,No Income,Graduate,3,13.0158,77.539,560096,Yes,Positive,Yes
+324,24,Male,Single,Student,No Income,Graduate,2,12.9561,77.5921,560027,Yes,Positive,Yes
+326,23,Female,Single,Student,No Income,Post Graduate,3,12.9369,77.6407,560095,No,Positive,No
+328,22,Female,Single,Student,No Income,Graduate,2,12.9369,77.6407,560095,Yes,Positive,Yes
+331,25,Female,Single,Student,No Income,Ph.D,3,12.9048,77.6821,560036,Yes,Positive,Yes
+332,20,Male,Single,Student,No Income,Graduate,2,12.9261,77.6221,560034,Yes,Positive,Yes
+334,23,Female,Single,Student,No Income,Graduate,1,12.977,77.5773,560009,Yes,Positive,Yes
+340,23,Male,Single,Student,No Income,Graduate,3,13.0223,77.7132,560049,Yes,Positive,Yes
+347,25,Female,Single,Student,No Income,Ph.D,3,12.9048,77.6821,560036,Yes,Positive,Yes
+348,20,Male,Single,Student,No Income,Graduate,2,12.9261,77.6221,560034,Yes,Positive,Yes
+350,23,Female,Single,Student,No Income,Graduate,1,12.977,77.5773,560009,Yes,Positive,Yes
+355,21,Male,Single,Student,No Income,Graduate,2,13.0012,77.5995,560046,No,Positive,No
+356,24,Male,Single,Student,No Income,Post Graduate,2,12.9706,77.6529,560075,Yes,Positive,Yes
+360,21,Male,Single,Student,No Income,Graduate,5,12.9783,77.6408,560038,Yes,Positive,Yes
+365,22,Male,Single,Student,No Income,Graduate,3,13.0158,77.539,560096,Yes,Positive,Yes
+366,24,Male,Single,Student,No Income,Graduate,2,12.9561,77.5921,560027,Yes,Positive,Yes
+368,23,Female,Single,Student,No Income,Post Graduate,3,12.9369,77.6407,560095,No,Positive,No
+370,22,Female,Single,Student,No Income,Graduate,2,12.9369,77.6407,560095,Yes,Positive,Yes
+372,23,Female,Single,Student,No Income,Post Graduate,2,13.0158,77.539,560096,Yes,Positive,Yes
+379,22,Male,Single,Student,Below Rs.10000,Post Graduate,4,12.985,77.5533,560010,Yes,Positive,Yes
+381,22,Male,Single,Student,No Income,Graduate,3,12.977,77.5773,560009,Yes,Positive,Yes
+382,24,Female,Single,Student,No Income,Post Graduate,3,12.9828,77.6131,560042,Yes,Positive,Yes
+383,23,Female,Single,Student,No Income,Post Graduate,2,12.9766,77.5993,560001,Yes,Positive,Yes
+384,23,Female,Single,Student,No Income,Post Graduate,4,12.9854,77.7081,560048,Yes,Positive,Yes
+385,22,Female,Single,Student,No Income,Post Graduate,5,12.985,77.5533,560010,Yes,Positive,Yes
+386,23,Male,Single,Student,Below Rs.10000,Post Graduate,2,12.977,77.5773,560009,Yes,Positive,Yes
+387,23,Male,Single,Student,No Income,Post Graduate,5,12.8988,77.5764,560078,Yes,Positive,Yes
